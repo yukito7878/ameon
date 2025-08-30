@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AMEON合同会社 - 伝統と現代をつなぐ架け橋</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<header>
+		<nav class="container">
+			<a href="#" class="logo" onclick="showPage('home')">AMEON</a>
+			<ul class="nav-links">
+				<li><a onclick="showPage('home')">ホーム</a></li>
+				<li><a onclick="showPage('gallery')">ギャラリー</a></li>
+				<li><a onclick="showPage('contact')">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- ホームページ -->
+	<div id="home" class="page active">
+		<section class="hero" style="--hero-image: url('img/ameonTop.png');">
+			<div class="container">
+				<div class="hero-content">
+					<h1>伝統と現代をつなぐ架け橋</h1>
+					<p>日本の伝統工芸と中東の民芸品を通じて<br>暮らしに彩りと物語をお届けします</p>
+				</div>
+			</div>
+		</section>
+
+
+		<div class="container">
+			<!-- 会社挨拶 -->
+			<section class="content-section">
+				<h2 class="section-title">ごあいさつ</h2>
+				<div class="text-content">
+					<p>AMEON合同会社は、日本国内の伝統工芸やハンドクラフト製品、そして中東を中心とした海外の民芸品を取り扱う会社です。私たちは、ただ物を販売するのではなく、そこに込められた「職人の思い」や「文化の背景」を大切にしながら、お客様にお届けいたします。暮らしの中に小さな物語や温もりを加える製品を通じて、日常に彩りを添える存在でありたいと考えております。
+					</p>
+				</div>
+			</section>
+
+			<!-- 会社ビジョン -->
+			<section class="content-section">
+				<h2 class="section-title">ビジョン</h2>
+				<div class="text-content">
+					<p>私たちのビジョンは、「伝統と現代をつなぐ架け橋」となることです。日本の職人が生み出す丁寧な手仕事や、海外で受け継がれてきた文化的価値を尊重し、それを現代のライフスタイルに調和させて提案していきます。大量消費や一過性の流行にとらわれず、長く使い続けることができる本質的な魅力を持つ製品を提供することで、持続可能な社会づくりに貢献し、人々の生活をより豊かにしていくことを目指します。
+					</p>
+				</div>
+			</section>
+
+			<!-- 取り組み -->
+			<section class="content-section">
+				<h2 class="section-title">私たちの取り組み</h2>
+				<div class="text-content">
+					<p>AMEON合同会社は、単に雑貨を輸入・販売するのではなく、フェアトレードや自然素材の活用を重視した商品選定を行っています。現地職人や地域工房と連携し、文化の継承や地域社会の発展にもつながる取り組みを大切にしています。また、環境負荷を抑える梱包材の利用や、廃棄を最小限にする小ロット仕入れなど、地球環境に配慮した事業活動を実践しています。こうした活動を通じて、お客様に安心して選んでいただけるブランドを築いてまいります。
+					</p>
+				</div>
+			</section>
+
+			<!-- 会社概要 -->
+			<section class="content-section">
+				<h2 class="section-title">会社概要</h2>
+				<div class="company-grid">
+					<div class="company-item">
+						<h3>会社名</h3>
+						<p>AMEON合同会社</p>
+					</div>
+					<div class="company-item">
+						<h3>設立</h3>
+						<p>2025年（令和7年）</p>
+					</div>
+					<div class="company-item">
+						<h3>代表者</h3>
+						<p>平井 利華</p>
+					</div>
+					<div class="company-item">
+						<h3>資本金</h3>
+						<p>100万円</p>
+					</div>
+					<div class="company-item">
+						<h3>所在地</h3>
+						<p>神奈川県横浜市金沢区<br>並木１丁目１番５－７０１号</p>
+					</div>
+					<div class="company-item">
+						<h3>事業内容</h3>
+						<p>衣料品、雑貨、インテリア類の<br>デザイン・企画・販売</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- 展望 -->
+			<section class="content-section">
+				<h2 class="section-title">未来への展望</h2>
+				<div class="text-content">
+					<p>今後は国内外の多様な工芸品を紹介するだけでなく、オリジナル商品の企画・開発にも注力し、独自の価値を持つブランドを育てていきます。また、海外向けのEC展開や現地パートナーシップを通じて、日本から世界へ、世界から日本へと文化をつなぐ事業を推進していきます。将来的には直営店舗やショールームの開設も視野に入れ、実際に製品の魅力を体験いただける場を作り上げることで、より多くのお客様と長期的な信頼関係を築いてまいります。
+					</p>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<!-- ギャラリーページ -->
+	<div id="gallery" class="page">
+		<div class="container" style="padding-top: 2rem;">
+			<section class="content-section">
+				<h2 class="section-title">ギャラリー</h2>
+				<p style="text-align: center; margin-bottom: 2rem; font-size: 1.2rem; color: #666;">
+					職人の手仕事が生み出す、美しい工芸品の数々
+				</p>
+
+				<div class="gallery-container">
+					<div class="gallery-tabs">
+						<div class="gallery-tab active" onclick="showGalleryTab(this, 'japanese')">和風テイスト</div>
+						<div class="gallery-tab" onclick="showGalleryTab(this, 'middle-east')">中東・アラビアン</div>
+
+					</div>
+
+					<!-- 和風ギャラリー -->
+					<div id="japanese-gallery" class="gallery-grid">
+						<div class="gallery-item" onclick="openModal('藍染トートバッグ')">
+							<div class="gallery-image">
+								<img src="img/藍染トートバッグ.png" alt="藍染トートバッグ" />
+							</div>
+							<div class="gallery-info">
+								<h3>藍染トートバッグ</h3>
+								<p>伝統的な藍染技法で染め上げた、使うほどに馴染むトートバッグ</p>
+							</div>
+						</div>
+
+						<div class="gallery-item" onclick="openModal('美濃焼マグカップ')">
+							<div class="gallery-image">
+								<img src="img/美濃焼マグカップ.png" alt="美濃焼マグカップ" />
+							</div>
+							<div class="gallery-info">
+								<h3>美濃焼マグカップ</h3>
+								<p>岐阜県の伝統的な美濃焼技法による、温もりを感じるマグカップ</p>
+							</div>
+						</div>
+
+
+						<div class="gallery-item" onclick="openModal('和紙ランプシェード')">
+							<div class="gallery-image">
+								<img src="img/和紙ランプシェード.png" alt="和紙ランプシェード" />
+							</div>
+							<div class="gallery-info">
+								<h3>和紙ランプシェード</h3>
+								<p>手漉き和紙が作り出す、やわらかで温かな光のランプシェード</p>
+							</div>
+						</div>
+
+						<div class="gallery-item" onclick="openModal('蜜蝋キャンドル')">
+							<div class="gallery-image">
+								<img src="img/蜜蝋キャンドル.png" alt="蜜蝋キャンドル" />
+							</div>
+							<div class="gallery-info">
+								<h3>蜜蝋キャンドル</h3>
+								<p>天然の蜜蝋を使用した、ほのかな甘い香りと優しい炎のキャンドル</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- 中東ギャラリー -->
+					<div id="middle-east-gallery" class="gallery-grid" style="display: none;">
+						<div class="gallery-item" onclick="openModal('モロッコランタン')">
+							<div class="gallery-image">
+								<img src="img/モロッコランタン.png" alt="モロッコランタン" />
+							</div>
+							<div class="gallery-info">
+								<h3>モロッコランタン</h3>
+								<p>伝統的な透かし彫りが織りなす、美しい光と影の模様</p>
+							</div>
+						</div>
+
+						<div class="gallery-item" onclick="openModal('トルコモザイクランプ')">
+							<div class="gallery-image">
+								<img src="img/トルコモザイクランプ.png" alt="トルコモザイクランプ" />
+							</div>
+							<div class="gallery-info">
+								<h3>トルコモザイクランプ</h3>
+								<p>手作業で組み上げられたモザイクガラスが生む、幻想的な空間</p>
+							</div>
+						</div>
+
+						<div class="gallery-item" onclick="openModal('ペルシャ更紗')">
+							<div class="gallery-image">
+								<img src="img/ペルシャ更紗.png" alt="ペルシャ更紗" />
+							</div>
+							<div class="gallery-info">
+								<h3>ペルシャ更紗</h3>
+								<p>古来より受け継がれる染色技法による、繊細で美しい布製品</p>
+							</div>
+						</div>
+
+						<div class="gallery-item" onclick="openModal('バブーシュ')">
+							<div class="gallery-image">
+								<img src="img/バブーシュ.png" alt="バブーシュ" />
+							</div>
+							<div class="gallery-info">
+								<h3>バブーシュ（革スリッパ）</h3>
+								<p>モロッコの伝統的な革スリッパ、履くほどに足に馴染む逸品</p>
+							</div>
+						</div>
+
+						<div class="gallery-item" onclick="openModal('アラビアン陶器')">
+							<div class="gallery-image">
+								<img src="img/アラビアン陶器.png" alt="アラビアン陶器" />
+							</div>
+							<div class="gallery-info">
+								<h3>アラビアン陶器・タイル</h3>
+								<p>伝統的な幾何学模様が施された、美しいアラビアンスタイルの陶器</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<!-- お問い合わせページ -->
+	<div id="contact" class="page">
+		<div class="container" style="padding-top: 2rem;">
+			<section class="content-section">
+				<h2 class="section-title">お問い合わせ</h2>
+				<p style="text-align: center; margin-bottom: 3rem; font-size: 1.2rem; color: #666;">
+					商品に関するご質問やお取り寄せのご相談など、お気軽にお問い合わせください
+				</p>
+
+				<div class="contact-container">
+					<div class="form-section">
+						<h3 style="color: #8B4513; margin-bottom: 2rem; font-size: 1.5rem;">お問い合わせフォーム</h3>
+						<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+							id="contactForm">
+							<input type="hidden" name="form-name" value="contact" />
+							<div style="display: none;">
+								<label>Don't fill this out if you're human: <input name="bot-field" /></label>
+							</div>
+							<div class="form-group">
+								<label>お名前 <span class="required">*</span></label>
+								<input type="text" name="name" required>
+							</div>
+							<div class="form-group">
+								<label>メールアドレス <span class="required">*</span></label>
+								<input type="email" name="email" required>
+							</div>
+							<div class="form-group">
+								<label>電話番号</label>
+								<input type="tel" name="phone">
+							</div>
+							<div class="form-group">
+								<label>お問い合わせ内容 <span class="required">*</span></label>
+								<textarea name="message" required
+									placeholder="ご質問内容、ご希望の商品、その他ご要望などをお聞かせください"></textarea>
+							</div>
+							<button type="submit" class="submit-btn">
+								<span class="btn-text">送信する</span>
+								<span class="btn-loading" style="display: none;"><span class="loading"></span>
+									送信中...</span>
+							</button>
+						</form>
+					</div>
+
+					<div class="contact-info">
+						<h3 style="margin-bottom: 2rem; font-size: 1.5rem;">直接のご連絡</h3>
+						<div class="contact-item">
+							<h4>📧 メールアドレス</h4>
+							<p>ameonmovie@gmail.com</p>
+						</div>
+						<div class="contact-item">
+							<h4>📞 電話番号</h4>
+							<p>080-6822-5451</p>
+						</div>
+						<div class="contact-item">
+							<h4>📍 所在地</h4>
+							<p>神奈川県横浜市金沢区<br>並木１丁目１番５－７０１号</p>
+						</div>
+						<div class="contact-item">
+							<h4>🕒 営業時間</h4>
+							<p>平日 10:00-18:00<br>土曜 10:00-16:00<br>日祝 休業</p>
+						</div>
+
+						<div class="contact-highlight">
+							<h4>🎁 特別なギフト包装承ります</h4>
+							<p>大切な方への贈り物として、美しいギフト包装も承っております。お気軽にご相談ください。</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<!-- モーダル -->
+	<div id="modal" class="modal" style="display: none;">
+		<div class="modal-content">
+			<span class="close-modal" onclick="closeModal()">&times;</span>
+			<h3 id="modal-title"></h3>
+			<div id="modal-body"></div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<p style="margin-bottom: 1rem;">&copy; 2025 AMEON合同会社. All rights reserved.</p>
+			<p style="font-size: 0.9rem; opacity: 0.8;">伝統と現代をつなぐ架け橋として、心を込めてお届けいたします</p>
+		</div>
+	</footer>
+
+	<script>
+		function showPage(pageId) {
+			// すべてのページを非表示
+			document.querySelectorAll('.page').forEach(page => {
+				page.classList.remove('active');
+			});
+
+			// 指定ページを表示
+			document.getElementById(pageId).classList.add('active');
+
+			// ページトップへ
+			window.scrollTo({top: 0, behavior: 'smooth'});
+
+			// ★ここに入れる：ギャラリーに入った時のアニメ再適用
+			if (pageId === 'gallery') {
+				setTimeout(() => {
+					document.querySelectorAll('#gallery .gallery-grid').forEach(g => {
+						g.style.animation = 'none';
+						// 直前のアニメをクリア → 再適用して確実に動かす
+						void g.offsetWidth;
+						g.style.animation = 'fadeInUp 0.6s ease-out';
+					});
+				}, 100);
+			}
+		}
+
+		function showGalleryTab(tabEl, tabType) {
+			// タブの active 切替
+			document.querySelectorAll('.gallery-tab').forEach(tab => {
+				tab.classList.remove('active');
+			});
+			tabEl.classList.add('active');
+
+			// ギャラリーの表示切替（まず全部消す）
+			document.querySelectorAll('#gallery [id$="-gallery"]').forEach(gallery => {
+				gallery.style.display = 'none';
+				gallery.style.animation = 'none';
+			});
+
+			// 対象だけ表示＋アニメ再適用
+			const targetGallery = document.getElementById(tabType + '-gallery');
+			targetGallery.style.display = 'grid';
+			void targetGallery.offsetWidth; // リフローでアニメ再生
+			targetGallery.style.animation = 'fadeInUp 0.6s ease-out';
+		}
+
+		/* ================================
+		   商品画像マップ（必要に応じて追加）
+		================================ */
+		const ITEM_IMAGES = {
+			'藍染トートバッグ': 'img/藍染トートバッグ.png',
+			'美濃焼マグカップ': 'img/美濃焼マグカップ.png',
+			'和紙ランプシェード': 'img/和紙ランプシェード.png',
+			'蜜蝋キャンドル': 'img/蜜蝋キャンドル.png',
+			'モロッコランタン': 'img/モロッコランタン.png',
+			'トルコモザイクランプ': 'img/トルコモザイクランプ.png',
+			'ペルシャ更紗': 'img/藍染トートバッグ.png',
+			'バブーシュ': 'img/ペルシャ更紗.png',
+			'アラビアン陶器': 'img/アラビアン陶器.png'
+		};
+
+		function getItemDescription(itemName) {
+			const descriptions = {
+				'藍染トートバッグ': '天然の藍を使用した伝統的な染色技法により、深く美しい青色に染め上げられたトートバッグです。使い込むほどに色合いに深みが増し、独特の風合いを楽しめます。',
+				'美濃焼マグカップ': '岐阜県の伝統工芸である美濃焼の技法で作られたマグカップ。土の温もりを感じられる質感と、手にしっくりと馴染む形状が特徴です。',
+				'和紙ランプシェード': '職人が一枚一枚手漉きで作った和紙を使用したランプシェード。柔らかく温かな光が空間を優雅に演出します。',
+				'蜜蝋キャンドル': '天然の蜜蝋100%で作られた環境に優しいキャンドル。燃焼時間が長く、ほのかな甘い香りとマイナスイオン効果も期待できます。',
+				'モロッコランタン': 'モロッコの職人が手作業で作り上げた真鍮製のランタン。繊細な透かし彫りが生み出す光と影の模様が、空間を幻想的に彩ります。',
+				'トルコモザイクランプ': '色とりどりのガラス片を一つ一つ手作業で組み上げたモザイクランプ。点灯すると美しい色彩が壁や天井に映し出されます。',
+				'ペルシャ更紗': 'ペルシャ地方で古来より受け継がれている伝統的な染色技法による布製品。繊細な模様と鮮やかな色彩が特徴的です。',
+				'バブーシュ': 'モロッコの伝統的な革製スリッパ。柔らかな羊革を使用し、履くほどに足に馴染みます。室内履きとしても人気です。',
+				'アラビアン陶器': '中東地方の伝統的な幾何学模様が美しい陶器とタイル。インテリアのアクセントとして空間に異国情緒をもたらします。'
+			};
+			return descriptions[itemName] || 'こちらの商品の詳細については、お問い合わせフォームよりご連絡ください。';
+		}
+
+		/* ================================
+		   モーダル開閉
+		================================ */
+		function openModal(itemName) {
+			const modal = document.getElementById('modal');
+			const title = document.getElementById('modal-title');
+			const body = document.getElementById('modal-body');
+
+			title.textContent = itemName;
+
+			const imgUrl = ITEM_IMAGES[itemName] || null;
+
+			const imageBlock = imgUrl
+				? `
+		      <div class="modal-image-wrap">
+		        <img src="${imgUrl}" alt="${itemName}" class="modal-image"
+		             onerror="this.closest('.modal-image-wrap').outerHTML = placeholderHTML('${itemName}')">
+		      </div>
+		    `
+				: placeholderHTML(itemName);
+
+			body.innerHTML = `
+		    <div class="modal-inner">
+		      ${imageBlock}
+		      <p class="modal-desc">${getItemDescription(itemName)}</p>
+		      <div class="modal-note">
+		        <strong>お取り寄せ・詳細はお問い合わせください</strong>
+		      </div>
+		    </div>
+		  `;
+
+			document.body.style.overflow = 'hidden'; // 背景スクロール固定
+			modal.style.display = 'flex';
+			modal.style.animation = 'fadeInUp 0.3s ease-out';
+		}
+
+		function closeModal() {
+			const modal = document.getElementById('modal');
+			modal.style.display = 'none';
+			document.body.style.overflow = ''; // 背景スクロール解除
+		}
+
+		/* フォールバック用テンプレート */
+		function placeholderHTML(itemName) {
+			return `
+		    <div class="modal-image-fallback">
+		      <div>🖼️<br><strong>${itemName}</strong><br><small>画像準備中</small></div>
+		    </div>
+		  `;
+		}
+
+		/* クリック外＆Escで閉じる（未設定なら有効化） */
+		(function attachModalGuards() {
+			const modal = document.getElementById('modal');
+			if (!modal.__guardsAttached) {
+				modal.addEventListener('click', (e) => {if (e.target === modal) closeModal();});
+				document.addEventListener('keydown', (e) => {if (e.key === 'Escape') closeModal();});
+				modal.__guardsAttached = true;
+			}
+		})();
+
+		// フォーム送信処理
+		document.getElementById('contactForm').addEventListener('submit', function (e) {
+			const submitBtn = this.querySelector('.submit-btn');
+			const btnText = submitBtn.querySelector('.btn-text');
+			const btnLoading = submitBtn.querySelector('.btn-loading');
+
+			// バリデーション
+			const name = this.name.value.trim();
+			const email = this.email.value.trim();
+			const message = this.message.value.trim();
+
+			if (!name || !email || !message) {
+				e.preventDefault();
+				alert('必須項目を入力してください。');
+				return;
+			}
+
+			const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+			if (!emailRegex.test(email)) {
+				e.preventDefault();
+				alert('正しいメールアドレスを入力してください。');
+				return;
+			}
+
+			// 送信中の表示
+			btnText.style.display = 'none';
+			btnLoading.style.display = 'inline-block';
+			submitBtn.disabled = true;
+
+			// Netlifyの場合は自動処理されるので、エラー時のみリセット
+			setTimeout(() => {
+				if (submitBtn.disabled) {
+					btnText.style.display = 'inline-block';
+					btnLoading.style.display = 'none';
+					submitBtn.disabled = false;
+				}
+			}, 10000);
+		});
+
+		// スムーススクロール
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				const target = document.querySelector(this.getAttribute('href'));
+				if (target) {
+					target.scrollIntoView({
+						behavior: 'smooth',
+						block: 'start'
+					});
+				}
+			});
+		});
+
+		// モーダル外クリックで閉じる
+		document.getElementById('modal').addEventListener('click', function (e) {
+			if (e.target === this) {
+				closeModal();
+			}
+		});
+
+		// ESCキーでモーダルを閉じる
+		document.addEventListener('keydown', function (e) {
+			if (e.key === 'Escape') {
+				closeModal();
+			}
+		});
+
+		// スクロールアニメーション
+		function animateOnScroll() {
+			const elements = document.querySelectorAll('.content-section, .gallery-item, .company-item');
+			elements.forEach(el => {
+				const rect = el.getBoundingClientRect();
+				const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+				if (isVisible) {
+					el.style.opacity = '1';
+					el.style.transform = 'translateY(0)';
+				}
+			});
+		}
+
+		// 初期化
+		document.addEventListener('DOMContentLoaded', function () {
+			// 最初はホームページを表示
+			showPage('home');
+
+			// スクロールアニメーション
+			window.addEventListener('scroll', animateOnScroll);
+
+			// 初期アニメーション設定
+			document.querySelectorAll('.content-section, .gallery-item, .company-item').forEach(el => {
+				el.style.opacity = '0';
+				el.style.transform = 'translateY(30px)';
+				el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+			});
+
+			// ヒーロー画像のフローティングアニメーション
+			const hero = document.querySelector('.hero');
+			let ticking = false;
+
+			function updateHeroAnimation() {
+				const scrolled = window.pageYOffset;
+				const parallax = scrolled * 0.5;
+				hero.style.transform = `translateY(${parallax}px)`;
+				ticking = false;
+			}
+
+			window.addEventListener('scroll', function () {
+				if (!ticking) {
+					requestAnimationFrame(updateHeroAnimation);
+					ticking = true;
+				}
+			});
+
+			// 初期アニメーション実行
+			setTimeout(animateOnScroll, 500);
+		});
+	</script>
+
+	<style>
+		/* モーダルスタイル */
+		.modal {
+			display: none;
+			position: fixed;
+			z-index: 2000;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.8);
+			align-items: center;
+			justify-content: center;
+		}
+
+		.modal-content {
+			background-color: white;
+			margin: auto;
+			padding: 0;
+			border-radius: 20px;
+			max-width: 500px;
+			width: 90%;
+			max-height: 80vh;
+			overflow-y: auto;
+			position: relative;
+			animation: modalSlideIn 0.3s ease-out;
+		}
+
+		@keyframes modalSlideIn {
+			from {
+				transform: translateY(-50px);
+				opacity: 0;
+			}
+
+			to {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+
+		.close-modal {
+			color: #aaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+			position: absolute;
+			right: 15px;
+			top: 10px;
+			z-index: 1;
+			cursor: pointer;
+			width: 40px;
+			height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			background: rgba(255, 255, 255, 0.9);
+		}
+
+		.close-modal:hover {
+			color: #000;
+			background: rgba(255, 255, 255, 1);
+		}
+
+		#modal-title {
+			background: linear-gradient(45deg, #8B4513, #DAA520);
+			color: white;
+			padding: 1.5rem 2rem;
+			margin: 0;
+			border-radius: 20px 20px 0 0;
+			font-size: 1.5rem;
+		}
+
+		#modal-body {
+			padding: 1rem;
+		}
+
+		/* レスポンシブ調整 */
+		@media (max-width: 768px) {
+			.modal-content {
+				width: 95%;
+				margin: 5% auto;
+			}
+
+			#modal-title {
+				font-size: 1.3rem;
+				padding: 1rem 1.5rem;
+			}
+
+			.gallery-item .gallery-image {
+				height: 200px;
+			}
+		}
+	</style>
+</body>
+
+</html>
