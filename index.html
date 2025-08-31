@@ -7,7 +7,12 @@
 	<title>AMEON合同会社 - 伝統と現代をつなぐ架け橋</title>
 	<link rel="stylesheet" href="style.css">
 
+	<!-- ▼ ファビコン設定 ▼ -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon.png">
+	<meta name="theme-color" content="#ffffff">
 </head>
+
 
 <body>
 	<header>
@@ -332,6 +337,8 @@
 					});
 				}, 100);
 			}
+			// ページ切り替え後にスクロールアニメーションを適用
+			animateOnScroll();
 		}
 
 		function showGalleryTab(tabEl, tabType) {
@@ -364,8 +371,8 @@
 			'蜜蝋キャンドル': 'img/蜜蝋キャンドル.png',
 			'モロッコランタン': 'img/モロッコランタン.png',
 			'トルコモザイクランプ': 'img/トルコモザイクランプ.png',
-			'ペルシャ更紗': 'img/藍染トートバッグ.png',
-			'バブーシュ': 'img/ペルシャ更紗.png',
+			'ペルシャ更紗': 'img/ペルシャ更紗.png',
+			'バブーシュ': 'img/バブーシュ.png',
 			'アラビアン陶器': 'img/アラビアン陶器.png'
 		};
 
